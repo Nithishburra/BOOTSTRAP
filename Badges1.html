@@ -1,0 +1,72 @@
+<!--
+    predefined classes is 
+
+    1) badge
+
+    2)rounded pill
+
+    3)position-relative => means in order to make free space then we should use this one.
+
+    4)position-absolute => means in order to make move any where from that area then we have to use this one.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+
+          <article class="container mt-5">
+           <button class="btn btn-success position-relative">Button
+           <span class="position-absolute 
+                          top-0
+                          start-0
+                          translate-middle
+                            p-1
+                           bg-warning
+                           border border-2
+                           border-dark
+                           rounded-circle"></span>
+          </button>
+          </article>
+
+          
+          <article class="container mt-5">
+            <button class="btn btn-success position-relative">Button
+            <span class="position-absolute 
+                           top-0
+                           start-100
+                           translate-middle                   
+                            bg-danger
+                             badge                          
+                            rounded-pill">99+</span>
+           </button>
+           </article>
+
+
+       <article class="container mt-5">
+           
+             <p class="h1">Item-1<span class="badge bg-primary">New</span></p>
+             <p class="h2">Item-1<span class="badge bg-secondary">New</span></p>
+             <p class="h3">Item-1<span class="badge bg-info">New</span></p>
+             <p class="h4">Item-1<span class="badge bg-success">New</span></p>
+             <p class="h5">Item-1<span class="badge bg-danger">New</span></p>
+             <p class="h6">Item-1<span class="badge bg-dark">New</span></p>
+
+       </article>
+
+
+
+       <article class="container mt-5">
+
+        <p class="h1">Item-1<span class="badge rounded-pill bg-primary">New</span></p>
+        <p class="h2">Item-1<span class="badge rounded-pill bg-secondary">New</span></p>
+        <p class="h3">Item-1<span class="badge rounded-pill bg-info">New</span></p>
+        <p class="h4">Item-1<span class="badge rounded-pill bg-success">New</span></p>
+        <p class="h5">Item-1<span class="badge rounded-pill bg-danger">New</span></p>
+        <p class="h6">Item-1<span class="badge rounded-pill bg-dark">New</span></p>
+
+      </article>
+
+    </body>
+</html>
