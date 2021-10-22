@@ -1,0 +1,222 @@
+<!--
+    predefined classes are the
+
+    1) dropdown
+
+    2) btn btn-secondary dropdown-toggle
+
+    3) dropdown-menu
+
+    4) dropdown-item
+
+    5) data-bs-toggle="dropdown" 
+
+    6) btn-group
+
+    7) dropdown-menu-dark
+
+    8) dropup
+
+    9) dropstart
+
+    10) dropend
+
+    11) dropdown-toggle-split
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container mt-5">
+<div class="dropdown">
+<button class = "btn btn-secondary dropdown-toggle"  data-bs-toggle="dropdown">UI FULLSTACK</button>
+<div class="dropdown-menu">
+ <li class="dropdown-item">HTML5</li>
+ <li class="dropdown-item">CSS3</li>
+ <li class="dropdown-item">REACTJS</li>
+ <li class="dropdown-item">VUEJS</li>
+ <li class="dropdown-item">ANGULAR</li>
+ <li class="dropdown-item">JAVASCRIPT</li>
+ <li class="dropdown-item">CSS</li>
+ </div>
+ </div>
+ </div>
+
+
+<div class="container mb-5">
+<div class="dropdown">
+<a class="btn btn-info dropdown-toggle"  href="" data-bs-toggle="dropdown" style="margin-left:1000px;">CSS3</a>
+<div class="dropdown-menu">
+<li class="dropdown-item" href="">GRID BOX</li>
+<li class="dropdown-item" href="">FLEX BOX</li>
+<li class="dropdown-item" href="">MODEL BOX</li>
+<li class="dropdown-item active" href="">POSITIONS</li>
+<li class="dropdown-item" href="">ABSOLUTE</li>
+<li class="dropdown-item" href="">RELATIVE</li>
+</div>
+</div>
+</div>
+
+<div class="container mt-5">
+<div class="btn-group dropstart">
+<button type="button" class="btn btn-primary">JAVA</button>
+<button class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="">CLASSES</a></li>
+<li><a class="dropdown-item" href="">OOPS</a></li>   
+<li><a class="dropdown-item" href="">OBJECTS</a></li>
+<li><hr class="dropdown-divider" href=""></li>
+<li><a class="dropdown-item" href="">THREADS</a></li>
+<li><a class="dropdown-item" href="">EXCEPTIONS</a></li>
+<li><a class="dropdown-item" href="">METHODS</a></li>
+</ul>
+</div>
+
+<div class="btn-group">
+<button type="button" class="btn btn-secondary">ADV JAVA</button>
+<button class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
+<ul class="dropdown-menu">
+ <li><a class="dropdown-item" href="">SERVLETS</a></li>
+<li><a class="dropdown-item" href="">WEBAPPS</a></li>   
+<li><a class="dropdown-item" href="">SERVERS</a></li>
+<li><hr class="dropdown-divider" href=""></li>
+<li><a class="dropdown-item active" href="">HTTP</a></li>
+<li><a class="dropdown-item" href="">JSP</a></li>
+<li><a class="dropdown-item" href="">JDBC</a></li>                        
+</ul>
+</div>
+
+<div class="btn-group">
+<button type="button" class="btn btn-info">HTML5</button>
+<button class="btn btn-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
+<ul class="dropdown-menu dropdown-menu-dark">
+<li><a class="dropdown-item" href="">TAGS</a></li>
+<li><a class="dropdown-item" href="">MARGINS</a></li>   
+<li><a class="dropdown-item" href="">PADDINGS</a></li>
+<li><hr class="dropdown-divider" href=""></li>
+<li><a class="dropdown-item" href="">HEADER</a></li>
+<li><a class="dropdown-item" href="">BODY</a></li>
+<li><a class="dropdown-item" href="">MAIN</a></li>
+</ul>
+</div>
+
+<div class="btn-group">
+<button type="button" class="btn btn-success">CSS3</button>
+<button class="btn btn-success dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
+<ul class="dropdown-menu dropdown-menu-dark">
+<li><a class="dropdown-item" href="">ANIMATIONS</a></li>
+<li><a class="dropdown-item" href="">FLEX BOX</a></li>   
+<li><a class="dropdown-item" href="">GRID BOX</a></li>
+<li><hr class="dropdown-divider" href=""></li>
+<li><a class="dropdown-item" href="">POSITIONS</a></li>
+<li><a class="dropdown-item" href="">RELATIVE</a></li>
+<li><a class="dropdown-item" href="">ABSOLUTE</a></li>
+</ul>
+</div>
+
+<div class="btn-group">
+<button type="button" class="btn btn-dark">JAVASCRIPT</button>
+<button class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="">VARIABLES</a></li>
+<li><a class="dropdown-item" href="">FUNCTIONS</a></li>   
+<li><a class="dropdown-item" href="">KEYWORDS</a></li>
+<li><hr class="dropdown-divider" href=""></li>
+<li><a class="dropdown-item" href="">CALLBACKS</a></li>
+<li><a class="dropdown-item" href="">JS FILES</a></li>
+<li><a class="dropdown-item" href="">DOM ELEMENTS</a></li>
+</ul>
+</div>
+
+<div class="btn-group">
+<button type="button" class="btn btn-danger">SQL</button>
+<button class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
+<ul class="dropdown-menu dropdown-menu-dark">
+<li><a class="dropdown-item" href="">DATABASE</a></li>
+<li><a class="dropdown-item" href="">COMMANDS</a></li>   
+<li><a class="dropdown-item" href="">TABLES</a></li>
+<li><hr class="dropdown-divider" href=""></li>
+<li><a class="dropdown-item" href="">OPERATIONS</a></li>
+<li><a class="dropdown-item" href="">DATA</a></li>
+<li><a class="dropdown-item" href="">STORAGES</a></li>                       
+</ul>
+</div>
+
+<div class="btn-group dropend">
+<button type="button" class="btn btn-warning">BOOTSTRAP</button>
+<button class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
+<ul class="dropdown-menu dropdown-menu-dark">
+<li><a class="dropdown-item" href="">BUTTONS</a></li>
+<li><a class="dropdown-item" href="">BREADS</a></li>   
+<li><a class="dropdown-item active" href="">PROGRESS</a></li>
+<li><hr class="dropdown-divider" href=""></li>
+<li><a class="dropdown-item" href="">DROPS AND DOWNS</a></li>
+<li><a class="dropdown-item" href="">CARDS</a></li>
+<li><a class="dropdown-item disabled" href="">SPINNERS</a></li>
+</ul>
+</div>  
+</div>
+
+
+
+<div class="container mt-5">
+<div class="btn-group">
+<button class="btn btn-success dropdown-toggle btn-lg" data-bs-toggle="dropdown">LARGE</button>
+<ul class="dropdown-menu">
+<li class="dropdown-item">A</li>
+<li class="dropdown-item">B</li>
+<li class="dropdown-item">C</li>
+<li class="dropdown-item">D</li>
+</ul>
+</div>
+
+<div class="btn-group dropup">
+<button class="btn btn-warning btn-lg">LARGE</button>
+<button class="btn btn-warning dropdown-toggle  dropdown-toggle-split" data-bs-toggle="dropdown"></button>
+<ul class="dropdown-menu">
+<li class="dropdown-item">1</li>
+<li class="dropdown-item">2</li>
+<li class="dropdown-item">3</li>
+<li class="dropdown-item">4</li>
+</ul>
+</div>
+
+<div class="btn-group ">
+<button class="btn btn-danger btn-sm">SMALL</button>
+<button class="btn btn-danger dropdown-toggle  dropdown-toggle-split" data-bs-toggle="dropdown"></button>
+<ul class="dropdown-menu">
+<li class="dropdown-item">1</li>
+<li class="dropdown-item">2</li>
+<li class="dropdown-item">3</li>
+<li class="dropdown-item">4</li>
+</ul>
+</div>
+
+        
+<div class="btn-group dropup">
+<button class="btn btn-dark dropdown-toggle btn-sm" data-bs-toggle="dropdown">SMALL</button>
+<ul class="dropdown-menu">
+<li class="dropdown-item">A</li>
+<li class="dropdown-item">B</li>
+<li class="dropdown-item">C</li>
+<li class="dropdown-item">D</li>
+</ul>
+</div>
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
