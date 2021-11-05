@@ -1,0 +1,103 @@
+<!--
+    the predefined classes are the 
+
+    1) navbar
+
+    2) navbar-expand-lg
+
+    3) navbar-light
+
+    4) bg-light
+
+    5) container-fluid
+
+    6) navbar-brand
+
+    7) navbar-toggler
+
+    8) data-bs-toggle="collapse"
+
+    9) data-bs-target="#navbarsupportedcontent"
+
+    10) navbar-toggle-icon
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+<div class="container-fluid">
+<a class="navbar-brand text-danger" href="#">
+<img src="logo.png" width="60" height="48" class="me-2">Ashok IT
+</a> 
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedcontent">
+<span class="navbar-toggle-icon"></span>
+</button>
+
+<div class="collpase navbar-collapse" id="navbarSupportedcontent">
+<ul class="navbar-nav me-auto mb-2 mb-lg-2">
+<li class="nav-item">
+<a class="nav-link active text-warning me-5" href="#">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link text-warning me-5" href="#">Menu</a>
+</li>
+    
+<li class="nav-item">
+<a class="nav-link active text-warning me-5" href="#">Contact</a>
+</li>
+
+<li class="nav-item ">
+<a class="nav-link active text-warning me-5" href="#">Demos</a>
+</li>
+
+<li class="nav-item dropdown me-4">
+<a class="nav-link dropdown-toggle text-warning" href="#" id="navdropdown" data-bs-toggle="dropdown">Courses</a>
+<ul class="dropdown-menu dropdown-menu-dark">
+<li><a class="dropdown-item" href="#">Angular</a></li>
+<li><a class="dropdown-item" href="#">Reactjs</a></li>
+<li><a class="dropdown-item" href="#">Nodejs</a></li>
+<li><a class="dropdown-item" href="#">Vuejs</a></li>
+<li><a class="dropdown-item" href="#">Javascript</a></li>
+<li><a class="dropdown-item" href="#">Java</a></li>
+</ul>
+</li>
+
+
+
+<li class="nav-item  me-5 ">
+<a class="nav-link disabled " href="#">Help</a>
+</li>
+
+<li class="nav-item  me-5 ">
+<a class="nav-link disabled " href="#">about</a>
+</li>
+
+
+<li class="nav-item  me-5 ">
+<a class="nav-link disabled " href="#">LogOut</a>
+</li>
+
+</ul>
+
+ 
+<form class="d-flex">
+<input class="form-control me-2 " type="search" placeholder="search Here">
+<button class="btn btn-outline-success" type="submit">Search</button>
+</form>
+
+       
+</div>
+</div>
+
+ </nav>
+
+</body>
+</html>
+
